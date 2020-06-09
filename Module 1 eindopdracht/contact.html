@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Contacts</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="info.html">General</a></li>
+            <li><a href="life.html">Life cycle</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a class="active contact" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Contact me</h1>
+    </header>
+    <main class="container-contact">
+        <img class="img-contact-1" src="images/closeup-face.jpg" alt="close up on the face">
+        <img class="img-contact-2" src="images/camouflage.jpg" alt="a stick insect camouflaging">
+        <article class="contact-text-1">
+            <h2>Tell me about your stick insects!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rem. Fugit dolore quasi quisquam, quo
+                asperiores consequatur ducimus ab libero impedit maiores pariatur, fugiat nostrum, magni officiis amet
+                dolorem sed.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In odio assumenda officiis placeat harum omnis
+                sed
+                ab hic suscipit culpa debitis reprehenderit magni, beatae, deserunt ad cum! Sint, asperiores vero? Lorem
+                ipsum dolor sit amet consectetur.
+            </p>
+        </article>
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+            <p><label>Name: <input type="text" name="name" required> </label></p>
+            <p><label>Email: <input type="email" name="email"> </label></p>
+            <p><label>Phone: <input type="number" name="number"> </label></p>
+            <p><label>Have you ever owned a stick insect?
+                    <input class="radio" id="owned-yes" type="radio" name="owned" value="yes" checked>Yes
+                    <input class="radio" id="owned-no" type="radio" name="owned" value="no">No
+                </label></p>
+            <p><label>Message: <textarea rows="10" cols="50" name="message" required></textarea> </label></p>
+            <p><button type="submit">Submit</button></p>
+        </form>
+    </main>
+    <footer>
+        <p>Website made by Janneke van Kaam &copy; 2020</p>
+    </footer>
+</body>
+
+</html>
